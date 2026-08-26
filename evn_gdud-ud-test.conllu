@@ -1,0 +1,405 @@
+# sent_id = Evenki_grammar_1
+# text = Ərdələn hogdžojə asin odan
+# text[eng] = Until now he has no tail.
+1	Ərdələn	Ərdələn	ADV	_	_	4	advmod	_	Gloss=until.now
+2	hogdžojə	hogdžoj	NOUN	_	Case=Acc|Definite=Ind	4	obj	_	Gloss=tail-ACC.INDF
+3	asin	asin	PART	_	Polarity=Neg	4	advmod	_	Gloss=NEG.EX
+4	odan	odan	VERB	_	Number=Sing|Person=3	0	root	_	Gloss=become-AOR-3SG|Tense=Aor
+
+# sent_id = Evenki_grammar_2
+# text = Nonon ịlan dụndəl. biŋkitin
+# text[eng] = Earlier there were three worlds.
+1	Nonon	Nonon	ADV	_	_	5	advmod	_	Gloss=earlier
+2	ịlan	ịlan	NUM	_	NumType=Card	5	nummod	_	Gloss=three.[NOM]
+3	dụndəl	dupndəl	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	SpaceAfter=No|Gloss=earth-PL.[NOM]
+4	.	.	PUNCT	_	_	5	punct	_	_
+5	biŋkitin	biŋkitin	VERB	_	Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=be-PST.DIST-3PL|Deixis=Remt
+
+# sent_id = Evenki_grammar_3
+# text = Umukon dundədu əsəl bidʼərə
+# text[eng] = They are not at one place.
+1	Umukon	Umukon	NUM	_	NumType=Card	4	nsubj	_	Gloss=one.[NOM]
+2	dundədu	dundədu	NOUN	_	Case=Dat	4	obl	_	Gloss=earth-DAT/LOC
+3	əsəl	əsəl	PART	_	Polarity=Neg	4	advmod	_	Gloss=NEG-PST-PL
+4	bidʼərə	bidʼərə	VERB	_	Aspect=Imp|Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=be-IPFV-CNG
+
+# sent_id = Evenki_grammar_4
+# text = Bi haːmị dụndəwə.
+# text[eng] = I know the land.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=PRO.1SG.[NOM]
+2	haːmị	haːmị	VERB	_	Number=Sing|Person=1	0	root	_	Gloss=know.[AOR]-1SG|Tense=Aor
+3	dụndəwə	dụndəwə	NOUN	_	Case=Acc	2	obj	_	SpaceAfter=No|Gloss=earth-ACC
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Evenki_grammar_5
+# text = Rožəstwoldu busšalən aminin.
+# text[eng] = At Christmas, my father fell ill.
+1	Rožəstwoldu	Rožəstwoldu	PROPN	_	Case=Dat|Number=Plur	3	obl	_	Gloss=Christmas-PL-DAT/LOC
+2	busšalən	busšalən	ADJ	_	Number=Sing|Person=3	3	amod	_	Gloss=be.ill-INCH-AOR-3SG|Aspect=Inch|Tense=Aor
+3	aminin	aminin	NOUN	_	Case=Nom|Number=Sing|Poss=Yes	0	root	_	SpaceAfter=No|Gloss=father.[NOM]-EP-3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_6
+# text = Bәrәmәn әmә-rә-n, әriksә-n urumul-dә-n, ŋoːnim dʒal-i-n urumul-dә-n.
+# text[eng] = The time had come, her breath shortened, her long thoughts shortened.
+1	Bәrәmәn	Bәrәmәn	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	Gloss=time
+2	әmә-rә-n	әmә	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=come-PST-3SG
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	әriksә-n	әriksә	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	Gloss=breath-3SG
+5	urumul-dә-n	urumul	VERB	_	Number=Sing|Person=3	2	conj	_	SpaceAfter=No|Gloss=shorten-NFUT-3SG|Tense=NonPast
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ŋoːnim	ŋoːnim	ADJ	_	_	9	amod	_	Gloss=long
+8	dʒal-i-n	dʒal	VERB	_	Number=Sing|Person=3	9	amod	_	Gloss=thought-FV-3SG|VerbForm=FV
+9	urumul-dә-n	urumul	VERB	_	Number=Sing|Person=3	2	conj	_	SpaceAfter=No|Gloss=shorten-NFUT-3SG|Tense=NonPast
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Evenki_grammar_7
+# text = Geː bi-miː ugu˂ buga bukatirin dʒә-tәgә-rә-n il-da-n.
+# text[eng] = That hero of the upper world woke up and stood up.
+1	Geː	geː	NUM	_	_	6	nummod	_	Gloss=one
+2	bi-miː	bi	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	6	advcl	_	Gloss=be-CVB.COND
+3	ugu˂	ugu˂	NOUN	_	Case=Nom	6	nmod	_	Gloss=upper.world
+4	buga	buga	NOUN	_	Case=Nom	6	nsubj	_	Gloss=hero
+5	bukatirin	bukatirin	PART	_	_	6	discourse	_	Gloss=PART
+6	dʒә-tәgә-rә-n	dʒә-tәgә-rә-n	VERB	_	Number=Sing|Person=3	0	root	_	Gloss=wake.up-NFUT-3SG|Tense=NonPast
+7	il-da-n	il-da	VERB	_	Number=Sing|Person=3	6	conj	_	SpaceAfter=No|Gloss=stand.up-NFUT-3SG|Tense=NonPast
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Evenki_grammar_8
+# text = bәjә-l ŋәnәktәdʒәriәː-tin itʃә-ŋnә-m biː nuŋartin minә-ßә әß-kil itʃә-rә.
+# text[eng] = I see people walking around; they do not see me.
+1	bәjә-l	bәjә	NOUN	_	Number=Plur	3	nsubj	_	Gloss=man-PL
+2	ŋәnәktәdʒәriәː-tin	ŋәnәktәdʒәriәː	VERB	_	Number=Plur|Person=3|VerbForm=Part	3	acl	_	Gloss=walking-3PL
+3	itʃә-ŋnә-m	itʃә	VERB	_	Aspect=Hab|Number=Sing|Person=1	0	root	_	Gloss=see-HABT-1SG
+4	biː	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Gloss=1SG
+5	nuŋartin	nuŋartin	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Gloss=3PL
+6	minә-ßә	minә	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	Gloss=1SG-ACC
+7	әß-kil	әß	ADV	_	Polarity=Neg	8	advmod	_	Gloss=NEG
+8	itʃә-rә	itʃә	VERB	_	Number=Plur|Person=3	3	conj	_	SpaceAfter=No|Gloss=see-RA|Tense=NonPast
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_9
+# text = әr omolgiː tymaːtna әrdәkәːn ili-ksaː tuːksa-tʃaː taːduk kirәktә-ßә ßaː-ksaː әniːn-dulә-ßi tuːksaː-ßna әmuß-tʃәː.
+# text[eng] = Early the next morning this boy got up and ran (out), then having killed a woodpecker, he brought it back to his mother, while running.
+1	әr	әr	DET	_	PronType=Dem	3	det	_	Gloss=this
+2	omolgiː	omolgiː	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	Gloss=boy
+3	tymaːtna	tymaːtna	ADV	_	_	6	advmod	_	Gloss=morning.early
+4	әrdәkәːn	әrdәkәːn	VERB	_	VerbForm=Conv	6	advcl	_	Gloss=get.up-CVB.ANT|Aspect=Ant
+5	ili-ksaː	ili	VERB	_	Number=Sing|Person=3|Tense=Past	6	conj	_	Gloss=run-PST
+6	tuːksa-tʃaː	tuːksa	VERB	_	VerbForm=Conv	0	root	_	Gloss=run-SIML|Aspect=Sim
+7	taːduk	taːduk	NOUN	_	Case=Acc	12	obj	_	Gloss=woodpecker-ACC
+8	kirәktә-ßә	kirәktә	VERB	_	VerbForm=Conv	12	advcl	_	Gloss=kill-CVB.ANT|Aspect=Ant
+9	ßaː-ksaː	ßaː	VERB	_	VerbForm=Conv	12	advcl	_	Gloss=bring-CVB.ANT|Aspect=Ant
+10	әniːn-dulә-ßi	әniːn	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	12	obl	_	Gloss=mother-LOC-REFL
+11	tuːksaː-ßna	tuːksaː	VERB	_	VerbForm=Conv	12	advcl	_	Gloss=run-CVB.SIML|Aspect=Sim
+12	әmuß-tʃәː	әmuß	VERB	_	Number=Sing|Person=3|Tense=Past	6	conj	_	SpaceAfter=No|Gloss=bring-PST
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Evenki_grammar_10
+# text = ta-duː umukoːn iktәːnә bi-hi-n.
+# text[eng] = [There] is one 3-year-old deer there.
+1	ta-duː	ta-duː	ADP	_	Case=Dat	0	root	_	Gloss=there-DAT
+2	umukoːn	umukoːn	NUM	_	Number=Sing	1	parataxis	_	Gloss=one
+3	iktәːnә	iktәːnә	NOUN	_	Case=Nom|Number=Sing	1	parataxis	_	Gloss=3.year.old
+4	bi-hi-n	bi	VERB	_	Number=Sing|Person=3	1	parataxis	_	SpaceAfter=No|Gloss=be-PRS-3SG|Tense=NonPast
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Evenki_grammar_11
+# text = biː tara dʒaßa-riː-ß.
+# text[eng] = I caught him.
+1	biː	biː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+2	tara	tara	DET	_	PronType=Dem	3	det	_	Gloss=that
+3	dʒaßa-riː-ß	dʒaßa	VERB	_	Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No|Gloss=catch-PST-1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_12
+# text = taːduk nuŋan-dulaːn tәg-riː-m.
+# text[eng] = Then I sat on him.
+1	taːduk	taːduk	ADV	_	_	3	advmod	_	Gloss=then
+2	nuŋan-dulaːn	nuŋan	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	3	obl	_	Gloss=3SG-LOC
+3	tәg-riː-m	tәg	VERB	_	Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No|Gloss=sit-PST-1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_13
+# text = nuŋan minә-ßә garadaː-t-ti-n.
+# text[eng] = He was throwing me.
+1	nuŋan	nuŋan	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
+2	minә-ßә	minә	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	Gloss=1SG-ACC
+3	garadaː-t-ti-n	garadaː	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=throw-DUR-PST-3SG|Aspect=Dur
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_14
+# text = biː nuŋan-maːn iːriːß-dʒa-haː-iːriːß-dʒa-ha tʃutʃußu-Ø-m.
+# text[eng] = I pulled-pulled, let him go.
+1	biː	biː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	Gloss=1SG
+2	nuŋan-maːn	nuŋan	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	1	parataxis	_	Gloss=3SG-ACC
+3	iːriːß-dʒa-haː-iːriːß-dʒa-ha	iːriːß	VERB	_	VerbForm=Conv	1	parataxis	_	Gloss=pull-IPFV-CVB.ANT-pull-IPFV-CVB.ANT|Aspect=Ant
+4	tʃutʃußu-Ø-m	tʃutʃußu	VERB	_	Number=Sing|Person=1	1	parataxis	_	SpaceAfter=No|Gloss=let.go-NFUT-1SG|Tense=NonPast
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Evenki_grammar_15
+# text = Omolgiː ɲaːn ǝrdǝkǝːn ili-ksa agi-tkiː ŋǝnǝ-tʃǝː.
+# text[eng] = The boy, again having gotten up in the early morning, went off to the forest.
+1	Omolgiː	Omolgiː	NOUN	_	Number=Sing	5	nsubj	_	Gloss=boy
+2	ɲaːn	again	ADV	_	_	5	advmod	_	Gloss=again
+3	ǝrdǝkǝːn	early.morning	ADV	_	_	5	advmod	_	Gloss=early.morning
+4	ili-ksa	GET-UP-CVB.ANT	VERB	_	VerbForm=Conv	5	advcl	_	Gloss=get.up-CVB.ANT|Aspect=Ant
+5	agi-tkiː	agi-tkiː	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=go-PST
+6	ŋǝnǝ-tʃǝː	forest-ALL	NOUN	_	Case=All	5	obl	_	SpaceAfter=No|Gloss=forest-ALL
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Evenki_grammar_16
+# text = Taːduk Geːßan-әtiːrkәːn urkә-ndʒә-ßi niː-kseː әr bәjә-ßә ŋaːla-duk-in dʒaßa-ksaː dʒuː-laː-ßi iːß-rә-n.
+# text[eng] = Then Gevan-old man opened the door, took this man by the hand, and led him into his home.
+1	Taːduk	then	ADV	_	_	8	advmod	_	Gloss=then
+2	Geːßan-әtiːrkәːn	Geːßan-old.man	PROPN	_	_	8	nsubj	_	Gloss=Gevan-old.man
+3	urkә-ndʒә-ßi	door-AUG-REFL	NOUN	_	Case=Acc|Reflex=Yes	8	obj	_	Gloss=door-AUG-REFL
+4	niː-kseː	open-CVB.ANT	VERB	_	VerbForm=Conv	8	advcl	_	Gloss=open-CVB.ANT|Aspect=Ant
+5	әr	this	DET	_	PronType=Dem	7	det	_	Gloss=this
+6	bәjә-ßә	man-ACC	PRON	_	Case=Acc|PronType=Prs	7	obj	_	Gloss=man-ACC
+7	ŋaːla-duk-in	hand-ABL-3SG	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	Gloss=hand-ABL-3SG
+8	dʒaßa-ksaː	take-CVB.ANT	VERB	_	VerbForm=Conv	0	root	_	Gloss=take-CVB.ANT|Aspect=Ant
+9	dʒuː-laː-ßi	home-LOC-REFL	NOUN	_	Case=Loc|Reflex=Yes	8	obl	_	Gloss=home-LOC-REFL
+10	iːß-rә-n	lead.in-NFUT-3SG	VERB	_	Number=Sing|Person=3	8	conj	_	SpaceAfter=No|Gloss=lead.in-NFUT-3SG|Tense=NonPast
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Evenki_grammar_17
+# text = Geː bi-miː uguː buga bukatirin dʒe tәgә-rә-n il-da-n Tar ili-ksaː tykәn gun-dә sәxә-tʃiː oː-l-da-n.
+# text[eng] = This hero of the upper world woke up and stood up. Having stood up, he started to speak, saying:
+1	Geː	one	NUM	_	_	5	nsubj	_	Gloss=one
+2	bi-miː	be-CVB.COND	VERB	_	Mood=Cnd|VerbForm=Conv	5	advcl	_	Gloss=be-CVB.COND
+3	uguː	upper_world	ADJ	_	_	5	amod	_	Gloss=upper
+4	buga	hero	NOUN	_	_	5	nsubj	_	Gloss=hero
+5	bukatirin	hero-PRT	PRON	_	PronType=Prs	0	root	_	Gloss=hero.PRT
+6	dʒe	PART	PART	_	_	5	advmod	_	Gloss=PART
+7	tәgә-rә-n	wake.up-NFUT-3SG	VERB	_	Number=Sing|Person=3	5	advcl	_	Gloss=wake.up-NFUT-3SG|Tense=NonPast
+8	il-da-n	stand.up-NFUT-3SG	VERB	_	Number=Sing|Person=3	5	conj	_	Gloss=stand.up-NFUT-3SG|Tense=NonPast
+9	Tar	that	DET	_	PronType=Dem	11	det	_	Gloss=that
+10	ili-ksaː	stand.up-CVB.ANT	VERB	_	VerbForm=Conv	11	advcl	_	Gloss=stand.up-CVB.ANT|Aspect=Ant
+11	tykәn	thus	ADV	_	_	5	parataxis	_	Gloss=thus
+12	gun-dә	say-NFUT	VERB	_	_	11	advcl	_	Gloss=say-NFUT|Tense=NonPast
+13	sәxә-tʃiː	story-POSS	NOUN	_	_	12	obj	_	Gloss=story-POSS
+14	oː-l-da-n	do-INGR-NFUT-3SG	VERB	_	Number=Sing|Person=3	12	conj	_	SpaceAfter=No|Gloss=do-INGR-NFUT-3SG|Tense=NonPast
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = Evenki_grammar_18
+# text = biː buga-la-ßiː mutʃu-dʒaŋaː-ß әntiːl-dulәː-ßiː dʒuː-laː mutʃuː-na әmә-Ø-m dʒaːn digi-tʃiː bi-tʃsәː-ß.
+# text[eng] = I returned (lit. will return) to my homeland, to my parents. Returning home, I came, I was 14 years old.
+1	biː	1SG	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Gloss=1SG
+2	buga-la-ßiː	homeland-LOC-REFL	NOUN	_	Case=Loc|Reflex=Yes	5	obl	_	Gloss=homeland-LOC-REFL
+3	mutʃu-dʒaŋaː-ß	RETURN-FUT-1SG	VERB	_	Number=Sing|Person=1|Tense=Fut	5	advcl	_	Gloss=return-FUT-1SG
+4	әntiːl-dulәː-ßiː	parents-LOC-REFL	NOUN	_	Case=Loc|Reflex=Yes	3	obl	_	Gloss=parents-LOC-REFL
+5	dʒuː-laː	home-ALL	NOUN	_	Case=All	10	obl	_	Gloss=home-ALL
+6	mutʃuː-na	RETURN-C.SIM	VERB	_	VerbForm=Conv	10	advcl	_	Gloss=return-C.SIM|Aspect=Sim
+7	әmә-Ø-m	come-NFUT-1SG	VERB	_	Number=Sing|Person=1	10	advcl	_	Gloss=come-NFUT-1SG|Tense=NonPast
+8	dʒaːn	14	NUM	_	_	10	nummod	_	Gloss=14
+9	digi-tʃiː	years	NOUN	_	_	10	obl	_	Gloss=years
+10	bi-tʃsәː-ß	be-PST-1SG	VERB	_	Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No|Gloss=be-PST-1SG
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Evenki_grammar_19
+# text = Papa amin-miː gunә-Ø-n:
+# text[eng] = Papa, my father, said to me:
+1	Papa	Papa	PROPN	_	_	3	vocative	_	Gloss=papa
+2	amin-miː	my father-REFL	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nsubj	_	Gloss=father-REFL
+3	gunә-Ø-n	say-NFUT-3SG	VERB	_	Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=say-NFUT-3SG|Tense=NonPast
+4	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_20
+# text = Hutә kә ga-kal pәktyrәːßun-mә.
+# text[eng] = Child, take the gun.
+1	Hutә	child	NOUN	_	_	3	vocative	_	Gloss=child
+2	kә	PRT	PART	_	_	3	discourse	_	Gloss=PRT
+3	ga-kal	take-IMPER.2SG	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	Gloss=take-IMPER.2SG
+4	pәktyrәːßun-mә	gun-ACC	NOUN	_	Case=Acc	3	obj	_	SpaceAfter=No|Gloss=gun-ACC
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_21
+# text = biː pәktyrәːßun-mә ga-ha pәktyrәjәːn-mi-m.
+# text[eng] = I, having taken the gun, shot.
+1	biː	1SG	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+2	pәktyrәːßun-mә	gun-ACC	NOUN	_	Case=Acc	3	obj	_	Gloss=gun-ACC
+3	ga-ha	take-CVB.ANT	VERB	_	VerbForm=Conv	5	advcl	_	Gloss=take-CVB.ANT|Aspect=Ant
+4	pәktyrәjәːn-mi-m	shoot-PST-1SG	VERB	_	Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No|Gloss=shoot-PST-1SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Evenki_grammar_22
+# text = Sagdaguː sagdaguː-ßa ga-ßki:, nәkuːdәguː nәkuːndәguː-ßә ga-ßkiː.
+# text[eng] = The older [brother] took the older [sister], the younger took the younger.
+1	Sagdaguː	older	NOUN	_	_	3	nsubj	_	Gloss=older
+2	sagdaguː-ßa	older-ACC	NOUN	_	Case=Acc	3	obj	_	Gloss=older-ACC
+3	ga-ßki:	take-P.HABT	VERB	_	Aspect=Hab|VerbForm=Part	0	root	_	SpaceAfter=No|Gloss=take-P.HABT
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	nәkuːdәguː	younger	NOUN	_	_	6	nsubj	_	Gloss=younger
+6	nәkuːndәguː-ßә	younger-ACC	NOUN	_	Case=Acc	3	parataxis	_	Gloss=younger-ACC
+7	ga-ßkiː	take-P.HABT	VERB	_	Aspect=Hab|VerbForm=Part	3	conj	_	SpaceAfter=No|Gloss=take-P.HABT
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_23
+# text = Taːduk buga-laː-ßar dʒuː-la-ßar әniːn-dulә-ßәr ɲәnә-ßkiː-l.
+# text[eng] = Then they went to their homeland, to their home, to their mother.
+1	Taːduk	then	ADV	_	_	5	advmod	_	Gloss=then
+2	buga-laː-ßar	homeland-LOC-REFL	NOUN	_	Case=Loc|Reflex=Yes	5	obl	_	Gloss=homeland-LOC-REFL
+3	dʒuː-la-ßar	home-LOC-REFL	NOUN	_	Case=Loc|Reflex=Yes	5	obl	_	Gloss=home-LOC-REFL
+4	әniːn-dulә-ßәr	mother-LOC-REFL	NOUN	_	Case=Loc|Reflex=Yes	5	obl	_	Gloss=mother-LOC-REFL
+5	ɲәnә-ßkiː-l	go-P.HABT-PL	VERB	_	Aspect=Hab|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|Gloss=go-P.HABT-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Evenki_grammar_24
+# text = Potom ilan anŋaniː-ßa. tәgә-t-ty-n
+# text[eng] = then (Russian) he sat [was in prison] for three years.
+1	Potom	then	ADV	_	_	5	advmod	_	Gloss=then
+2	ilan	three	NUM	_	_	5	nummod	_	Gloss=three
+3	anŋaniː-ßa	years-ACC	NOUN	_	Case=Acc	5	obl	_	SpaceAfter=No|Gloss=years-ACC
+4	.	.	PUNCT	_	_	5	punct	_	_
+5	tәgә-t-ty-n	sit-DUR-PST-3SG	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=sit-DUR-PST-3SG|Aspect=Dur
+
+# sent_id = Evenki_grammar_25
+# text = Taːduk juː-tʃәː-n.
+# text[eng] = Then he got out.
+1	Taːduk	then	ADV	_	_	2	advmod	_	Gloss=then
+2	juː-tʃәː-n	leave-PST-3SG	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=leave-PST-3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Evenki_grammar_26
+# text = Tar ɲәkәdʒәrәktyn әr-giːt taːr-giːt әdyn, burga-oː-tʃa.
+# text[eng] = meanwhile here-ELA there-ELA wind blizzard make-PST
+1	Tar	meanwhile	ADV	_	_	7	discourse	_	Gloss=meanwhile
+2	ɲәkәdʒәrәktyn	here-ELA	ADV	_	_	7	obl	_	Gloss=here-ELA
+3	әr-giːt	there-ELA	ADV	_	_	7	obl	_	Gloss=there-ELA
+4	taːr-giːt	wind	NOUN	_	_	7	nsubj	_	Gloss=wind
+5	әdyn	blizzard	NOUN	_	_	7	conj	_	SpaceAfter=No|Gloss=blizzard
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	burga-oː-tʃa	make-PST	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=make-PST
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Evenki_grammar_27
+# text = Tar ahatkaː-r-kuŋakaː-r buga-laː-βar somat uta-t-ra-ø.
+# text[eng] = ‘Those girls were really hurrying home.’
+1	Tar	that	DET	_	PronType=Dem	2	det	_	Gloss=that
+2	ahatkaː-r-kuŋakaː-r	girl-PL-child-PL	NOUN	_	Number=Plur	4	nsubj	_	Gloss=girls-PL
+3	buga-laː-βar	home-LOC-REFL	NOUN	_	Case=Loc	4	obl	_	Gloss=home-LOC-REFL
+4	somat	very	ADV	_	_	5	advmod	_	Gloss=very
+5	uta-t-ra-ø	hurry-NFUT-DUR-3PL	VERB	_	Number=Plur|Person=3	0	root	_	SpaceAfter=No|Gloss=hurry-NFUT-DUR-3PL|Aspect=Dur|Tense=NonPast
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Evenki_grammar_28
+# text = Tar-dat buga-laː-βar dʒə ʃnə-hi-nə.
+# text[eng] = ‘They immediately left for home.’
+1	Tar-dat	that-PART	DET	_	PronType=Dem	2	det	_	Gloss=that-PART
+2	buga-laː-βar	home-LOC-REFL	NOUN	_	Case=Loc	4	obl	_	Gloss=home-LOC-REFL
+3	dʒə	PRT	PART	_	_	4	discourse	_	Gloss=PRT
+4	ʃnə-hi-nə	go-INCEP-NFUT	VERB	_	Number=Plur|Person=3	0	root	_	SpaceAfter=No|Gloss=go-INCEP-NFUT|Tense=NonPast|VerbForm=Incep
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Evenki_grammar_29
+# text = Tar ʃnə-hin-dʒə-nə-l əkimə-tyn tykən gun-nə turəl-kən oː-tʃaː.
+# text[eng] = ‘As they were leaving, the oldest of them started speaking, saying thus.’
+1	Tar	that	DET	_	PronType=Dem	2	det	_	Gloss=that
+2	ʃnə-hin-dʒə-nə-l	go-INCEP-IMPV-CVB.SIML-PL	VERB	_	Mood=Imp|Number=Plur|VerbForm=Conv	7	advcl	_	Gloss=go-INCEP-IMPV-CVB.SIML-PL
+3	əkimə-tyn	oldest-3PL	NOUN	_	Number=Plur|Person=3	7	nsubj	_	Gloss=oldest-3PL
+4	tykən	thus	ADV	_	_	7	advmod	_	Gloss=thus
+5	gun-nə	say-CVB.SIML	VERB	_	VerbForm=Conv	7	advcl	_	Gloss=say-CVB.SIML|Aspect=Sim|Tense=NonPast
+6	turəl-kən	speak-DERIV	VERB	_	_	7	advcl	_	Gloss=speak-DERIV|VerbForm=Deriv
+7	oː-tʃaː	do-PST	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=do-PST
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Evenki_grammar_30
+# text = Tar guni-ksə nuŋan dəgdə-xin-ə-n.
+# text[eng] = 'Having spoken, he flew off.'
+1	Tar	that	DET	_	PronType=Dem	2	det	_	Gloss=that
+2	guni-ksə	say-CVB.ANT	VERB	_	VerbForm=Conv	4	advcl	_	Gloss=say-CVB.ANT|Aspect=Ant
+3	nuŋan	3SG	PRON	_	Number=Sing|PronType=Prs	4	nsubj	_	Gloss=3SG
+4	dəgdə-xin-ə-n	fly-INCEP-FV-3SG	VERB	_	Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=fly-INCEP-FV-3SG|Tense=NonPast|VerbForm=Incep
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Evenki_grammar_31
+# text = Taraː dołdy-ksaː ər dulin buga buktyri-n ətʃəː tuluj-ra.
+# text[eng] = 'When he heard that, the hero of middle earth could not stand it.'
+1	Taraː	that	DET	_	PronType=Dem	2	det	_	Gloss=that
+2	dołdy-ksaː	hear-CVB.ANT	VERB	_	VerbForm=Conv	7	advcl	_	Gloss=hear-CVB.ANT|Aspect=Ant
+3	ər	this	DET	_	PronType=Dem	5	det	_	Gloss=this
+4	dulin	middle	NOUN	_	_	5	amod	_	Gloss=middle
+5	buga	land	NOUN	_	_	7	nsubj	_	Gloss=land
+6	buktyri-n	hero-3SG	NOUN	_	Number=Sing|Person=3	7	nsubj	_	Gloss=hero-3SG
+7	ətʃəː	NEG	PART	_	_	8	advmod	_	Gloss=NEG
+8	tuluj-ra	tolerate-RA	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Gloss=tolerate-RA|Tense=NonPast
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Evenki_grammar_32
+# text = Tykən gun-tʃəːləː-n.
+# text[eng] = 'After she had spoken thus'
+1	Tykən	thus	ADV	_	_	2	advmod	_	Gloss=thus
+2	gun-tʃəːləː-n	say-CVB.ANT-3SG	VERB	_	Number=Sing|Person=3|VerbForm=Conv	0	root	_	SpaceAfter=No|Gloss=say-CVB.ANT-3SG|Aspect=Ant
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Evenki_grammar_33
+# text = Tar nəxəksəkər ʃan-dat tykən guː-l-tʃəː.
+# text[eng] = 'Then, she [one of them] again began to speak thus:'
+1	Tar	then	ADV	_	_	5	advmod	_	Gloss=then
+2	nəxəksəkər	again	ADV	_	_	5	advmod	_	Gloss=again
+3	ʃan-dat	again-PRT	PART	_	_	5	advmod	_	Gloss=again-PRT
+4	tykən	thus	ADV	_	_	5	advmod	_	Gloss=thus
+5	guː-l-tʃəː	say-INGR-PST	VERB	_	Tense=Past	0	root	_	SpaceAfter=No|Gloss=say-INGR-PST|VerbForm=Ingr
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Evenki_grammar_34
+# text = Tara dʒəβuksəjəl əniːni-n gunʈʃət-te-n.
+# text[eng] = 'Having eaten [the meat], his mother started to say:'
+1	Tara	that	DET	_	PronType=Dem	2	det	_	Gloss=that
+2	dʒəβuksəjəl	eat-CVB.ANT-PL	VERB	_	Number=Plur|VerbForm=Conv	4	advcl	_	Gloss=eat-CVB.ANT-PL|Aspect=Ant
+3	əniːni-n	mother-3SG	NOUN	_	Number=Sing|Person=3	4	nsubj	_	Gloss=mother-3SG
+4	gunʈʃət-te-n	say-NFUT-3SG	VERB	_	Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=say-NFUT-3SG|Tense=NonPast
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Evenki_grammar_35
+# text = Solkoktʃon ikə-l-də-n.
+# text[eng] = 'Solkokchon started singing.'
+1	Solkoktʃon	Solkokchon	PROPN	_	_	2	nsubj	_	Gloss=Solkokchon
+2	ikə-l-də-n	sing-INGR-NFUT-3SG	VERB	_	Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=sing-INGR-NFUT-3SG|Tense=NonPast|VerbForm=Ingr
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Evenki_grammar_36
+# text = Tar axiːlaː-daːßi әmә-tʃәː.
+# text[eng] = 'He came to get married. Having come, he spoke thus, telling this story:'
+1	Tar	that	DET	_	PronType=Dem	0	root	_	Gloss=that
+2	axiːlaː-daːßi	marry-CVB.PURP-REFL	VERB	_	Mood=Prp|VerbForm=Conv	1	parataxis	_	Gloss=marry-CVB.PURP-REFL|Voice=Refl
+3	әmә-tʃәː	come-PST	VERB	_	Tense=Past	1	parataxis	_	SpaceAfter=No|Gloss=come-PST
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_37
+# text = Tar dʒәßu-ksәː әtә-rә-n-dә, butkatyri-l-duːlaː ŋәnә-rә-n.
+# text[eng] = 'Having eaten, he finished, and went to the heroes.'
+1	Tar	that	DET	_	PronType=Dem	2	det	_	Gloss=that
+2	dʒәßu-ksәː	eat-CVB.ANT	VERB	_	VerbForm=Conv	3	advcl	_	Gloss=eat-CVB.ANT|Aspect=Ant
+3	әtә-rә-n-dә	finish-NFUT-3SG-PART	VERB	_	Number=Sing|Person=3|VerbForm=Part	0	root	_	SpaceAfter=No|Gloss=finish-NFUT-3SG-PART|Tense=NonPast
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	butkatyri-l-duːlaː	hero-PL-LOC	NOUN	_	Case=Loc|Number=Plur	6	obl	_	Gloss=hero-PL-LOC
+6	ŋәnә-rә-n	go-NFUT-3SG	VERB	_	Number=Sing|Person=3	3	conj	_	SpaceAfter=No|Gloss=go-NFUT-3SG|Tense=NonPast
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Evenki_grammar_38
+# text = Taːra doːldyː-ksaː, әр dulin buga buktyr-in әтʃәː tuluj-ra.
+# text[eng] = 'Having heard that, this hero of middle earth could not stand it.'
+1	Taːra	that	DET	_	PronType=Dem	2	det	_	Gloss=that
+2	doːldyː-ksaː	hear-CVB.ANT	VERB	_	VerbForm=Conv	8	advcl	_	SpaceAfter=No|Gloss=hear-CVB.ANT|Aspect=Ant
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	әр	this	DET	_	PronType=Dem	6	det	_	Gloss=this
+5	dulin	middle	ADJ	_	Degree=Pos	6	amod	_	Gloss=middle
+6	buga	land	NOUN	_	Number=Sing	8	nsubj	_	Gloss=land
+7	buktyr-in	hero-3SG	NOUN	_	Number=Sing|Person=3	8	nsubj	_	Gloss=hero-3SG
+8	әтʃәː	tolerate-NEG	VERB	_	Polarity=Neg	0	root	_	Gloss=tolerate-NEG|VerbForm=Ingr
+9	tuluj-ra	stand-RA	VERB	_	_	8	conj	_	SpaceAfter=No|Gloss=stand-RA|VerbForm=RA
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Evenki_grammar_39
+# text = Tar ulgutʃәːmәːtʃi-ksәː-l hunaːt-pa-n ga-da-n sibajßa-ßa oː-ra-n.
+# text[eng] = 'Once they had discussed [this], he (Hurkokchon) took his daughter and married her.'
+1	Tar	that	DET	_	PronType=Dem	6	dep	_	Gloss=that
+2	ulgutʃәːmәːtʃi-ksәː-l	talk-CVB.ANT-PL	VERB	_	Number=Plur|VerbForm=Conv	6	dep	_	Gloss=talk-CVB.ANT-PL|Aspect=Ant
+3	hunaːt-pa-n	girl-ACC-3SG	NOUN	_	Case=Acc|Number=Sing|Person=3	6	dep	_	Gloss=girl-ACC-3SG
+4	ga-da-n	take-NFUT-3SG	VERB	_	Number=Sing|Person=3	6	dep	_	Gloss=take-NFUT-3SG|Tense=NonPast
+5	sibajßa-ßa	wedding-ACC	NOUN	_	Case=Acc	6	dep	_	Gloss=wedding-ACC
+6	oː-ra-n	make-NFUT-3SG	VERB	_	Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=make-NFUT-3SG|Tense=NonPast
+7	.	.	PUNCT	_	_	6	dep	_	_
+
