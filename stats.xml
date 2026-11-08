@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>39</sentences><tokens>249</tokens><words>249</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>39</sentences><tokens>249</tokens><words>249</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="165" /><!-- ., that, ,, then, bi, home-LOC-REFL, thus, nuŋan, this, 1SG, PRT, again, biː, gun-ACC, hear-CVB.ANT -->
+  <forms unique="173" /><!-- ., Tar, ,, biː, taːduk, buga, tykən, Geː, bi-miː, buga-laː-βar, bukatirin, dulin, il-da-n, ili-ksaː, minә-ßә -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="11">
+    <tag name="ADJ">4</tag><!-- busšalən, middle, upper_world, ŋoːnim -->
+    <tag name="ADP">1</tag><!-- ta-duː -->
+    <tag name="ADV">21</tag><!-- then, thus, again, Nonon, early.morning, here-ELA, meanwhile, taːduk, there-ELA, tymaːtna -->
+    <tag name="DET">16</tag><!-- that, this, tara, that-PART, әr -->
+    <tag name="NOUN">50</tag><!-- home-LOC-REFL, gun-ACC, hero-3SG, homeland-LOC-REFL, land, omolgiː, Bәrәmәn, aminin, blizzard, buga -->
+    <tag name="NUM">7</tag><!-- 14, Umukon, geː, one, three, umukoːn, ịlan -->
+    <tag name="PART">8</tag><!-- PRT, NEG, PART, again-PRT, asin, bukatirin, əsəl -->
+    <tag name="PRON">17</tag><!-- nuŋan, 1SG, bi, biː, minә, 3SG, hero-PRT, man-ACC, my_father-REFL, nuŋartin -->
+    <tag name="PROPN">4</tag><!-- Geːßan-old.man, Papa, Rožəstwoldu, Solkokchon -->
+    <tag name="PUNCT">43</tag><!-- ., ,, : -->
+    <tag name="VERB">78</tag><!-- bi, hear-CVB.ANT, itʃә, say-NFUT-3SG, take-CVB.ANT, take-P.HABT, urumul, GET-UP-CVB.ANT, RETURN-C.SIM, RETURN-FUT-1SG -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="30">
+    <feat name="Aspect" value="Hab" upos="VERB">4</feat><!-- ga-ßki:, ga-ßkiː, itʃә-ŋnә-m, ɲәnә-ßkiː-l -->
+    <feat name="Aspect" value="Imp" upos="VERB">1</feat><!-- bidʼərə -->
+    <feat name="Case" value="Abl" upos="NOUN">1</feat><!-- ŋaːla-duk-in -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON">15</feat><!-- minә-ßә, pәktyrәːßun-mә, anŋaniː-ßa, bәjә-ßә, dụndəwə, hogdžojə, hunaːt-pa-n, nuŋan-maːn, nәkuːndәguː-ßә, sagdaguː-ßa -->
+    <feat name="Case" value="All" upos="NOUN">2</feat><!-- dʒuː-laː, ŋǝnǝ-tʃǝː -->
+    <feat name="Case" value="Dat" upos="ADP,NOUN,PROPN">3</feat><!-- Rožəstwoldu, dundədu, ta-duː -->
+    <feat name="Case" value="Loc" upos="NOUN,PRON">11</feat><!-- buga-laː-βar, buga-la-ßiː, buga-laː-ßar, butkatyri-l-duːlaː, dʒuː-la-ßar, dʒuː-laː-ßi, nuŋan-dulaːn, әniːn-dulә-ßi, әniːn-dulә-ßәr, әntiːl-dulәː-ßiː -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON">14</feat><!-- biː, Bi, Bәrәmәn, aminin, buga, dụndəl, iktәːnә, nuŋan, nuŋartin, omolgiː -->
+    <feat name="Definite" value="Ind" upos="NOUN">1</feat><!-- hogdžojə -->
+    <feat name="Degree" value="Pos" upos="ADJ">1</feat><!-- dulin -->
+    <feat name="Mood" value="Cnd" upos="VERB">2</feat><!-- bi-miː -->
+    <feat name="Mood" value="Imp" upos="VERB">2</feat><!-- ga-kal, ʃnə-hin-dʒə-nə-l -->
+    <feat name="Mood" value="Ind" upos="VERB">3</feat><!-- burga-oː-tʃa, oː-tʃaː, tuluj-ra -->
+    <feat name="Mood" value="Prp" upos="VERB">1</feat><!-- axiːlaː-daːßi -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON,PROPN,VERB">17</feat><!-- Rožəstwoldu, ahatkaː-r-kuŋakaː-r, bidʼərə, biŋkitin, butkatyri-l-duːlaː, bәjә-l, dʒəβuksəjəl, dụndəl, itʃә-rә, nuŋartin -->
+    <feat name="Number" value="Sing" upos="ADJ,NOUN,NUM,PRON,VERB">66</feat><!-- biː, il-da-n, minә-ßә, nuŋan, omolgiː, urumul-dә-n, Bi, Bәrәmәn, agi-tkiː, amin-miː -->
+    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- Umukon, ịlan -->
+    <feat name="Person" value="1" upos="PRON,VERB">18</feat><!-- biː, minә-ßә, Bi, amin-miː, bi-tʃsәː-ß, dʒaßa-riː-ß, haːmị, itʃә-ŋnә-m, mutʃu-dʒaŋaː-ß, pәktyrәjәːn-mi-m -->
+    <feat name="Person" value="2" upos="VERB">1</feat><!-- ga-kal -->
+    <feat name="Person" value="3" upos="ADJ,NOUN,PRON,VERB">46</feat><!-- il-da-n, urumul-dә-n, agi-tkiː, bi-hi-n, bi-miː, bidʼərə, biŋkitin, buktyr-in, buktyri-n, busšalən -->
+    <feat name="Polarity" value="Neg" upos="ADV,PART,VERB">4</feat><!-- asin, əsəl, әß-kil, әтʃәː -->
+    <feat name="Poss" value="Yes" upos="NOUN,PRON">2</feat><!-- amin-miː, aminin -->
+    <feat name="PronType" value="Dem" upos="DET">16</feat><!-- Tar, tara, әr, Tar-dat, Taraː, Taːra, ər, әр -->
+    <feat name="PronType" value="Prs" upos="PRON">17</feat><!-- biː, minә-ßә, nuŋan, Bi, amin-miː, bukatirin, bәjә-ßә, nuŋan-dulaːn, nuŋan-maːn, nuŋartin -->
+    <feat name="Reflex" value="Yes" upos="NOUN">7</feat><!-- buga-la-ßiː, buga-laː-ßar, dʒuː-la-ßar, dʒuː-laː-ßi, urkә-ndʒә-ßi, әniːn-dulә-ßәr, әntiːl-dulәː-ßiː -->
+    <feat name="Tense" value="Fut" upos="VERB">1</feat><!-- mutʃu-dʒaŋaː-ß -->
+    <feat name="Tense" value="Past" upos="VERB">17</feat><!-- agi-tkiː, bi-tʃsәː-ß, bidʼərə, biŋkitin, burga-oː-tʃa, dʒaßa-riː-ß, garadaː-t-ti-n, guː-l-tʃəː, ili-ksaː, juː-tʃәː-n -->
+    <feat name="VerbForm" value="Conv" upos="VERB">24</feat><!-- bi-miː, axiːlaː-daːßi, dołdy-ksaː, doːldyː-ksaː, dʒaßa-ksaː, dʒəβuksəjəl, dʒәßu-ksәː, ga-ha, gun-nə, gun-tʃəːləː-n -->
+    <feat name="VerbForm" value="Fin" upos="VERB">3</feat><!-- burga-oː-tʃa, oː-tʃaː, tuluj-ra -->
+    <feat name="VerbForm" value="Part" upos="VERB">5</feat><!-- ga-ßki:, ga-ßkiː, ŋәnәktәdʒәriәː-tin, ɲәnә-ßkiː-l, әtә-rә-n-dә -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="18">
+    <dep name="acl">1</dep>
+    <dep name="advcl">23</dep>
+    <dep name="advmod">22</dep>
+    <dep name="amod">6</dep>
+    <dep name="conj">11</dep>
+    <dep name="dep">5</dep>
+    <dep name="det">14</dep>
+    <dep name="discourse">4</dep>
+    <dep name="nmod">1</dep>
+    <dep name="nsubj">28</dep>
+    <dep name="nsubj:outer">3</dep>
+    <dep name="nummod">4</dep>
+    <dep name="obj">11</dep>
+    <dep name="obl">20</dep>
+    <dep name="parataxis">12</dep>
+    <dep name="punct">43</dep>
+    <dep name="root">39</dep>
+    <dep name="vocative">2</dep>
+  </deps>
+</treebank>
